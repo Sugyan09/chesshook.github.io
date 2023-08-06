@@ -1,0 +1,114 @@
+
+
+.contentarea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 430px;
+    width: 100%;
+    background: transparent;
+    
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.5);
+}
+.contentarea .form{
+    padding: 2rem;
+}
+
+.form header{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-bottom: 2rem;
+    color: white;
+}
+.form .form-input{
+    height: 50px;
+    width: 20rem;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(168, 158, 158);
+    outline: none;
+    background:transparent;
+    border-radius: 10px;
+}
+.form .form-input:focus-within{
+
+    box-shadow: 0 1px 7px rgb(168, 158, 158);
+
+}
+
+.form a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #518178;
+    text-decoration: none;
+    margin-left: 6px;
+}
+form .button{
+    color: #fff;
+    background-color: rgba(243, 14, 14, 0.938);
+    border: 1px solid rgba(243, 14, 14, 0.938);
+    width: 360px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    margin-top: 0.8rem;
+    transition: 0.4s;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+form input.button:hover{
+    background: rgba(179, 26, 26, 0.767);
+    border: 1px solid rgba(179, 26, 26, 0.767);
+}
+.signup label{
+    color: #518178;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.contentarea .registration{
+    display: none;
+}
+#check:checked ~ .registration{
+    display: block;
+}
+#check:checked ~ .login{
+    display: none;
+}
+#check{
+    display: none;
+}
+.signup{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 3px;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 17px;
+    color: rgba(175, 165, 165, 0.5);
+    transition-duration: 0.4s;
+}
+input{
+    color: white;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    width: 300px;
+}
+input:focus{
+    outline: none;
+    width: 300px;
+}
+.form-input:focus-within .icon{
+    color: white;
+    margin-left: 4px;
+}
+
